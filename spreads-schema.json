@@ -1,5 +1,16 @@
 {
+  "metadata": {
+    "source": "https://github.com/cousingary/tarot/blob/main/spreads-schema.json",
+    "author": "Jeremy Lampkin",
+    "description": "Cross-domain semantic schema for all divinatory spreads available across the Tarotsmith network.",
+	  "canonical": "https://github.com/cousingary/tarot/blob/main/spreads-schema.json"
+    "schema_version": "1.0",
+    "license": "MIT",
+    "updated": "2025-08-03"
+  },
+{
   "spread_name": "Single-Card Draw",
+  "id": "spread_single",
   "description": "A quick one-card reading for concise insight or daily focus. Used for general guidance, meditation, or direct questions. It can be used for just about any question, including drawing a card of the day, week, or even one’s card of ultimate destiny. It can also be used repetitively, as some readers prefer to pull one card at a time, watching as a story unfolds.",
   "cards_drawn": 1,
   "difficulty": "easiest",
@@ -262,6 +273,7 @@
 },
 {
   "spread_name": "Three-Card Spread",
+  "id": "spread_three",
   "description": "This simple chronological spread can be used to shed light on the influences that have passed, current influences, and what is approaching in the near future. Not much explanation is necessary for this spread.",
   "cards_drawn": 3,
   "difficulty": "very easy",
@@ -526,6 +538,7 @@
 },
 {
   "spread_name": "Blind Spot Spread",
+  "id": "spread_blindspot",
   "description": "This tarot spread is used to enhance self-awareness. Questions about learning something about oneself or things that are hidden work very well with this tarot spread, although no question is necessary.",
   "cards_drawn": 4,
   "difficulty": "varies",
@@ -775,6 +788,7 @@
 },
 {
   "spread_name": "Cross Spread",
+  "id": "spread_cross",
   "description": "The Cross Spread is good for questions and advice. It can also be used to determine the meaning of a confusing card from a previous reading, or for that matter, to shed light on other points of confusion.
 
 In questions asking advice, this tarot spread is self-explanatory. The main thing is to determine the difference between cards #2 and #3. #1 is the topic and #4 is the result.
@@ -1044,6 +1058,7 @@ In questions regarding confusion, such as: 'What was the meaning of Card (X) in 
 },
 {
   "spread_name": "Horse Shoe Spread",
+  "id": "spread_horseshoe",
   "description": "The Horse Shoe is more advanced than the three-card reading, yet simpler than most other spreads. It is a versatile method that can be used for most queries, though there are other spreads that would go into more depth. As the simple Past, Present, and Future spread, it contains these cards in positions #1, #2, and #7, but also has four other tarot cards that help the reader understand how to deal with the future better.",
   "cards_drawn": 7,
   "difficulty": "easy",
@@ -1312,6 +1327,7 @@ In questions regarding confusion, such as: 'What was the meaning of Card (X) in 
 },
 {
   "spread_name": "Ankh Spread",
+  "id": "spread_ankh",
   "description": "The Ankh Spread is for questions about the causes behind trends. It is similar to the Celtic Cross and Secret of the High Priestess spreads, but it covers the reasons behind the circumstances in question differently, perhaps giving a better explanation of why things are the way they are.
 
 The loop of the upper section of the ankh reveals the spiritual background and causes of the situation, while the stem of the base focuses on prospects for the outcome.
@@ -1562,6 +1578,7 @@ The first two tarot cards represent the two parent causes of the situation. They
 },
 {
   "spread_name": "Celtic Cross Spread",
+  "id": "spread_celticcross",
   "description": "This is probably the most well-known tarot spread. A good, basic spread for beginners to practise with, the Celtic Cross is useful for questions of all types. In this spread, it can be helpful to notice the relationships between the pairings of cards #5 & #9, #1 & #2, #3 & #4, and #6 & #10.",
   "cards_drawn": 10,
   "difficulty": "average",
@@ -1809,6 +1826,7 @@ The first two tarot cards represent the two parent causes of the situation. They
 },
 {
   "spread_name": "Secret of the Priestess Spread",
+  "id": "spread_priestess",
   "description": "This spread makes a nice alternative to the Celtic Cross, which covers basically the same ground. It is useful when a question doesn’t quite call for the Ankh spread. This tarot spread is helpful for looking into a current trend. The High Priestess may or may not present a mysterious secret to be analysed after the rest of the spread.",
   "cards_drawn": 9,
   "difficulty": "average",
@@ -2039,6 +2057,7 @@ The first two tarot cards represent the two parent causes of the situation. They
 },
 {
   "spread_name": "Golden Dawn Spread",
+  "id": "spread_goldendawn",
   "description": "Note: Tarot decks that use reversed cards such as the Rider-Waite do not work well with this spread, which was designed to be read using elemental dignity.
 
 The Golden Dawn spread is best suited for use with the bifrost Tarot and especially the Book of Thoth, as these decks are meant to be read a certain way with the court cards. Princes and queens represent actual men and women connected with the matter, while princesses generally represent ideas, thoughts, or opinions, and knights represent the arrival or departure of a matter depending on the direction faced.
@@ -2283,6 +2302,7 @@ Cards #7, #11, & #15 represent the influences of karma and destiny beyond the re
 },
 {
   "spread_name": "Decision Spread",
+  "id": "spread_decision",
   "description": "This simple but highly useful spread calls for a question to be asked in this format: 'What happens if I do (X), and what happens if I do not do (X)?'
 
 Please note that it should not be viewed as a decision between two different options, but about whether a single option should be exercised or not. A second option would call for a separate reading.
@@ -2559,6 +2579,7 @@ Cards #4, #2, & #6 represent the chronological sequence of events that unfolds i
 },
 {
   "spread_name": "Relationship Spread #1",
+  "id": "spread_relationship1",
   "description": "This tarot spread is easy to read, like a convenient chart. In this spread, court cards generally indicate actual people with the same characteristics. Knights (or corresponding princes, but not kings) and queens are meant to represent actual men and women in this tarot spread. Look for patterns in the cards as always.
 
 Card #1 is the overall significator of the relationship. The two columns on either side of the significator characterise each individual’s role in the relationship. The relationship does not have to be romantic. In fact, it could be a relationship between a person and a group, or even how two groups relate.
@@ -2835,6 +2856,7 @@ The bottom row, cards #5 & #4, represents the way each person behaves, in other 
 },
 {
   "spread_name": "Relationship Spread #2",
+  "id": "spread_relationship2",
   "description": "This relationship spread focuses more on the common ground of the relationship, with three cards in the middle column showing the common ground. The middle column essentially displays the past, present, and future of the relationship.
 
 Card #4 stands for the common base of the relationship, which may be thought of as the past events which have shaped their characters, bringing them together. The current connection that binds them together is Card #3, indicating the values shared. Card #7 implies the common goals that would keep the pair together moving into the future.
@@ -3085,6 +3107,7 @@ Cards #1 & #2 indicate the separate personalities of each member of the relation
 },
 {
   "spread_name": "Love Triangle Spread",
+  "id": "spread_relationship3",
   "description": "This spread can be used to determine the dynamics of the relationship between three people, regardless of whether romance is involved. It is arranged in the form of a hexagram, consisting of several large and small triangles. This tarot spread may seem somewhat complicated, but it is not entirely that difficult.
 
 The first step is to interpret the card for each individual position in the spread. Generally, one might ask about a relationship they are involved in, but this does not have to be the case. Ordinarily, the reader’s representative card is #1, their main person of interest is #2, and the other person would be #3.
@@ -3341,6 +3364,7 @@ The next step completes the upward triangle and the hexagram, focusing on cards 
 },
 {
   "spread_name": "Path Spread",
+  "id": "spread_path",
   "description": "For the Path reading, one asks for suggestions on how to behave properly to achieve the desired result. The Current column represents how the reader has been acting, and the Suggested column suggests how they should act to achieve a certain goal. The chart-like spread uses the standard three levels: Rational, Emotional, and External Stance (how one projects oneself outwardly). When comparing the Current and Suggested cards, the most important thing is to notice the differences between the two cards. It is these differences that hint at the behaviours that should be altered.
 
 Card #1 is the significator, the card which should reflect the nature of the query and/or the desired outcome.
@@ -3617,6 +3641,7 @@ External Stance means how one acts outwardly, and how they hope others see them.
 },
 {
   "spread_name": "Game Plan Spread",
+  "id": "spread_gameplan",
   "description": "When a person has a certain plan in mind, this simple five-card spread presents a choice, hinting at what action or attitude should be taken for their plan to succeed, and what should be avoided to help the plan work out for the best.
 
 The initial card is laid in the centre of the layout, the significator. The following four cards are laid out clockwise around the significator.
@@ -3894,6 +3919,7 @@ The fifth card is a hint as to how to make this plan work out favourably. The id
 },
 {
   "spread_name": "Comic Spread",
+  "id": "spread_comic",
   "description": "Note: This spread works best with decks like the Diary of a Broken Soul or Surrealist Tarot because they display scenes rather than pips and do not use reversals.
 
 The Comic Strip Spread is a simple nine-card chronological spread that looks like a page of a comic book. This method should be used to get a glimpse of the future as it would pan out naturally. It may be insightful to use this spread in coordination with biorhythms. The spread is easy to read as a storyboard, just like a comic strip.
@@ -4114,6 +4140,7 @@ It is important to pay particular attention to the cards and the relationships w
 },
 {
   "spread_name": "Astrological Spread",
+  "id": "spread_astrological",
   "description": "The Astrological Tarot Spread is based on houses of astrology. This complicated spread takes several steps to understand.
 
 The first step is to interpret the tarot card for each individual position in the spread.
@@ -4379,6 +4406,7 @@ Further, other patterns and correlations between certain numbers can be noted. C
 },
 {
   "spread_name": "Three Pyramids Spread",
+  "id": "spread_pyramids",
   "description": "A deep magical/psychological spread geared towards self-actualisation. Basically, there is the main pyramid in the centre, and two smaller pyramids on each side. One is inverted.
 
 Positions 1 & 3 represent where the reader comes from, or what has made them/shaped them on various levels. Can be from environment, upbringing, schooling, etc. A look at the past, but with more objectivity than is usually given when using tarot cards.
@@ -4602,6 +4630,7 @@ Position 12 represents what the reader should be offering externally, or what th
 },
 {
   "spread_name": "Reversed Compass",
+  "id": "spread_reversedcompass",
   "description": "A spread just for mahjong readings. This reading sets the tiles in the celestial form instead of the terrestrial format that is used in navigational compasses, following the traditions of Chinese philosophy. This complex reading is very flexible in that one may focus on a specific or general question, or no question at all when using it.
 
 In the Reversed Compass Reading, each of the sets of tiles has an influence on the issue represented by the nucleus. To interpret this reading properly, all the tile sets should be compared to the nucleus.",
@@ -4638,6 +4667,7 @@ In the Reversed Compass Reading, each of the sets of tiles has an influence on t
 },
 {
   "spread_name": "Three Dragons Spread",
+  "id": "spread_threedragons",
   "description": "In Chinese culture, the dragon is considered a sign of great luck and power. However, in mahjong, red, green, and white dragons represent three distinct influences that can affect a person’s life. The Dragon Reading creates a relationship between sets of tiles for each dragon, to explore how the three dragons will influence things now and in the near future.",
   "cards_drawn": 9,
   "difficulty": "moderate",
@@ -4668,6 +4698,7 @@ In the Reversed Compass Reading, each of the sets of tiles has an influence on t
 },
 {
   "spread_name": "Three Bones Spread",
+  "id": "spread_threebones",
   "description": "This layout is used only for mahjong tiles and dominoes, drawing three tiles. The tiles are flipped to answer the question in chronological order. In this variation of the three-tile reading, after each draw, the reader puts each tile back in the pile so that it could possibly come up more than once. If tiles repeat, this would indicate a faster or more potent outcome.",
   "cards_drawn": 3,
   "difficulty": "easy",
@@ -4697,4 +4728,5 @@ In the Reversed Compass Reading, each of the sets of tiles has an influence on t
       "reading_url": "https://tarotsmith.com/mo-dominoes/threebones.php"
     }
   ]
+}
 }
