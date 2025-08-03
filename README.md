@@ -1,4 +1,4 @@
-# 🃏 Tarotsmith Schema Network
+# 🃏 Tarot Reading Schema by Tarotsmith
 
 **The canonical machine-readable schema for tarot reading and other oracles across the Tarotsmith divination network.**
 
@@ -25,7 +25,7 @@ This schema defines the full network of available readings by:
 
 ## 🧬 Files in this Repo
 
-- `reading-schema.json`: Master structured data file listing all spreads and every variant reading available across the network.
+- `spreads-schema.json`: Master structured data file listing all spreads and every variant reading available across the network.
 - `README.md`: You’re reading it.
 
 ---
