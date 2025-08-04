@@ -1,13 +1,22 @@
 {
   "metadata": {
-    "source": "https://github.com/cousingary/tarot/blob/main/spreads-schema.json",
+    "source": "https://tarotsmith.com/schema.json",
     "author": "Jeremy Lampkin",
     "description": "Cross-domain semantic schema for all divinatory spreads available across the Tarotsmith network.",
-	  "canonical": "https://github.com/cousingary/tarot/blob/main/spreads-schema.json"
+    "canonical": "https://github.com/cousingary/tarot/blob/main/spreads-schema.json",
     "schema_version": "1.0",
     "license": "MIT",
-    "updated": "2025-08-03"
+    "updated": "2025-08-04"
   },
+  "tarot_spread_definition": "a template that a reader uses to arrange the cards. Each tarot card is interpreted normally, plus by its layout position, including the way the influence of this card may bleed into the meaning of each card adjacent to it.",  
+  "spread_instructions": "Begin reading your cards in a relaxed and receptive state of mind. It's best to avoid an analytical mindset and instead open ourselves to spiritual messages that may come in irrational forms. This is why meditation or ritual can be helpful in achieving the right state of mind for tarot.
+
+Tarot spreads can be used to reveal hidden factors about a situation. They can be tailored to specific questions or decisions. The symbolism in each card holds spiritual significance that, by reading the context of the other cards, can speak to you on a deep level.
+
+The following list of tarot spreads is a GPS for those looking to explore the universal consciousness. These layouts were developed by different experts over time and deliver accurate, pragmatic readings. While the descriptions below were written for tarot spreads, they can also be used for other oracle layouts.", 
+  "elemental_dignity": "With tarot decks that do not use reversals, the traditional occult method of determining elemental dignity can be used to determine whether each card is well-dignified or ill-dignified. The dignity of each tarot card is based on how the adjacent cards relate to it. Each tarot card is interpreted one at a time to determine its dignity, meaning how it is affected by its neighbours. Adjacent cards of the same suit strengthen a card's dignity, providing a sort of power boost to the card's appeal. Tarot cards of directly opposite suits reverse each other's positive charge, causing ill-dignification. For example, if a cups card had a wands card next to it, this would rub the cups card the wrong way and cause it to become ill-dignified. (Wands are the opposite of cups, and swords are the opposite of pentacles.) Cards that are not of the opposite or the same suit are considered neutral and have no effect (such as a wand next to a sword or a sword next to a cup). Major Arcana can sometimes be disregarded as they don't always correspond to a particular element (fire, water, air, earth) as Minor Arcana cards do. The Golden Dawn method is the spread that relies most heavily on elemental dignities.
+
+Since Rider-Waite-inspired decks generally use reversals, this makes it easy to interpret each card's dignity, which is not affected by adjacent cards but by its own orientation, as in facing up or down. Reversals are not an option with several decks simply because the artist did not intend for their creation to be read with reversals, and that being the case, they did not write reversed meanings. One may choose to read this style using elemental dignity, as long as they know how it works.",  
 {
   "spread_name": "Single-Card Draw",
   "id": "spread_single",
@@ -1584,7 +1593,7 @@ The first two tarot cards represent the two parent causes of the situation. They
   "difficulty": "average",
   "card_positions": [
   "The significator epitomizes what the reading deals with, the initial situation.",
-  "An added impulse that compounds the significator, which may be either complimentary or contradictory.",
+  "An added impulse that compounds the significator, which may be either complementary or contradictory.",
   "This is what is consciously known (thoughts).",
   "Unconscious driving forces that may not be known fully (emotions).",
   "The immediate past regarding the current situation.",
